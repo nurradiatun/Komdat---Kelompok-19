@@ -1,9 +1,9 @@
 # Komdat-Kelompok-19
 
-[Tentang](#tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+[Tentang](#web-paste) | [Instalasi](#instalasi-web-server) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
-## Tentang
+## Aplikasi Web Paste
 Paste merupakan aplikasi web *pastebins* yang dapat digunakan untuk memasukkan *source code* dan teks debugging umum. Fitur yang tersedia pada aplikasi ini yaitu mengedit, menghapus, serta mencari kata pada hasil Paste. Fitur tersebut dapat dijalankan dengan melakukan *login* terlebih dahulu.
 
 ## Instalasi Web Server
@@ -26,7 +26,28 @@ Dengan demikian , jika kita mengakses ``` localhost:8888 ``` di host, maka akan 
 - PHP 5.3.7 (or later) with php-mcrypt & GD enabled [PHP5.5+ recommended]
 - MySQL 5.x+
 
-### Cara Instalasi
+### Instalasi LAMP(Linux Apache MySQL PHP)
+```
+#install SSH
+sudo apt update
+sudo apt install ssh
+```
+Setelah terinstall SSH, kita dapat mengakses VM secara *remote*. Buka terminal di *host* untuk login *remote* ke *port* 2222.
+
+```
+#akses remote dari host
+ssh student @localhost -p 2222
+
+#install Apache, MySQL, PHP
+sudo apt install apache2
+sudo apt install mysql-server
+sudo apt install php
+sudo apt install libapache2-mod-php
+sudo apt install php-mysql
+sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2
+sudo service apache2 restart
+```
+### Instalasi Aplikasi Web Paste
 1. Masuk ke folder ``` /var/www/html	```
 ```
 $ cd /var/www/html
