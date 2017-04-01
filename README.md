@@ -59,7 +59,9 @@ $ sudo mv config.example.php config.php
     ```
     
     - Kembali ke localhost tadi, refresh, maka muncul login admin
-    ![](C:\Users\ACER AMD\Desktop\komdat\Komdat-Kelompok-19\login adminn.png)
+    ![](http:\\nurradiatun\images\komdat\login adminn.png)
+    
+    C:\Users\ACER AMD\Desktop\komdat\Komdat-Kelompok-19\login adminn.png)
     
     - Selesai (Tampilan dashboard Admin)
     ![](C:\Users\ACER AMD\Desktop\komdat\Komdat-Kelompok-19\dashboard.png)
