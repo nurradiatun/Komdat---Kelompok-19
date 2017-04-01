@@ -74,9 +74,9 @@ Admin dapat melakukan konfigurasi informasi site
 2. Permission
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/configurasi2.png)
 3. Captcha Settings
-![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/configurasi3.png)
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/configure3.png)
 4. Mail Settings
-![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/configurasi4.png)
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/configure4.png)
 
 ## Maintenance 
 PASTE menyediakan fitur maintenance apabila admin web ingin melakukan perbaikan pada situs.
