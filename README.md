@@ -2,5 +2,5 @@
 
 # Paste #
 kembali keatas
-pate adasdkjsad
+Paste adalah
 
