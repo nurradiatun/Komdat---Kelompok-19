@@ -1,12 +1,23 @@
 # Komdat-Kelompok-19
 
-[Tentang](#Tentang) | [Instalasi](#Instalasi) | [Konfigurasi](#Konfigurasi) | [Otomatisasi](#Otomatisasi) | [Cara Pemakaian](#Cara-Pemakaian) | [Pembahasan](#Pembahasan) | [Referensi](#referensi)
+[Tentang](#tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Tentang
 Paste merupakan aplikasi web *pastebins* yang dapat digunakan untuk memasukkan *source code* dan teks debugging umum. Fitur yang tersedia pada aplikasi ini yaitu mengedit, menghapus, serta mencari kata pada hasil Paste. Fitur tersebut dapat dijalankan dengan melakukan *login* terlebih dahulu.
 
-## Instalasi
+## Instalasi Web Server
+### Membuat VM Ubuntu Server
+Install Ubuntu Server 16.04 menggunakan *Virtual Disk Manager*, kemudian buat VM baru pada Virtual Box dengan nama *ubuntu* dan tipe *Ubuntu 64-bit*. Jalankan VM Ubuntu Server tersebut. Setting username ``` student ```  dan password ``` student ```.
+
+### Setting *port-forwading* VM
+Tujuan dilakukan setting *port-forwading* agar VM dapat diakses dari luar melalui alamat IP *host(localhost)* . 
+Masuk ke ``` Setting -> Network -> Advanced -> *Port Forwading* ``` dan tambahkan dua aturan berikut :
+| Name  	| Protocol | Host IP | Host Port | Guest IP | Guest Port |
+| -------- 	| :---------: | :--------: | :----------: | :---------: | :------------: |
+| http     	| TCP	| 	       | 8888	 | 		 | 80		     |
+| ssh    	| TCP	| 	       | 2222	 | 		 | 22		     |
+Dengan demikian , jika kita mengakses ``` localhost:8888 ``` di host, maka akan diteruskan di *guest* VM.
 
 ### Kebutuhan
 - Apache 2.X / Nginx
