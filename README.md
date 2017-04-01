@@ -39,13 +39,28 @@ localhost:8888/PASTE/install
 
 5. Masuk ke folder docs, instal phpmyadmin dan buat database, kemudian pindahkan file config.example.php menjadi file config.php
 ```
-
 $ cd docs
 $ sudo apt-get install phpmyadmin
 $ mysql -u root -p
 mysql> CREATE DATABASE paste;
-
 $ sudo mv config.example.php config.php
 ```
 
-6. 
+6. Masuk ke localhost (localhost -> alamat IP atau URL kamu). Selanjutkan langkah-langkah konfigurasi:
+	- Konfigurasi Database
+	![](C:\Users\ACER AMD\Desktop\komdat\cek install.png)
+    
+    - Konfigurasi Admin Account
+    ![](C:\Users\ACER AMD\Desktop\komdat\admin.png)
+
+	- setelah itu lakukan penghapusan folder instalasi pada terminal, masuk ke directori var/www/html/PASTE 
+	```
+    $ rm -rf install/
+    ```
+    
+    - Kembali ke localhost tadi, refresh, maka muncul login admin
+    ![](C:\Users\ACER AMD\Desktop\komdat\login adminn.png)
+    
+    - Selesai (Tampilan dashboard Admin)
+    ![](C:\Users\ACER AMD\Desktop\komdat\dashboard.png)
+    
