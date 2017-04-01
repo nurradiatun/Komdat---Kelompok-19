@@ -59,7 +59,7 @@ $ sudo mv config.example.php config.php
     ```
     
     - Kembali ke localhost tadi, refresh, maka muncul login admin
-    ![](http:\\nurradiatun\images\komdat\login adminn.png)
+    ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/login%20adminn.png)
     
     C:\Users\ACER AMD\Desktop\komdat\Komdat-Kelompok-19\login adminn.png)
     
