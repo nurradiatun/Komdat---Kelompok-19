@@ -12,7 +12,7 @@ Install Ubuntu Server 16.04 menggunakan *Virtual Disk Manager*, kemudian buat VM
 
 ### Setting *port-forwading* VM
 Tujuan dilakukan setting *port-forwading* agar VM dapat diakses dari luar melalui alamat IP *host(localhost)* . 
-Masuk ke ``` Setting -> Network -> Advanced -> *Port Forwading* ``` dan tambahkan dua aturan berikut :
+Masuk ke ``` Setting -> Network -> Advanced -> Port-Forwading ``` dan tambahkan dua aturan berikut :
 
 | Name  	| Protocol | Host IP | Host Port | Guest IP | Guest Port |
 | -------- 	| :---------: | :--------: | :----------: | :---------: | :------------: |
@@ -47,6 +47,7 @@ sudo apt install php-mysql
 sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2
 sudo service apache2 restart
 ```
+Cek instalasi Apache dengan membuka laman http://localhost:8888 jika terdapat tulisan It's Work! maka instalasi LAMP berhasil
 ### Instalasi Aplikasi Web Paste
 1. Masuk ke folder ``` /var/www/html	```
 ```
@@ -99,7 +100,32 @@ $ sudo mv config.example.php config.php
     ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/dashboard.png)
     
 ## Konfigurasi
+Pastikan pada konfigurasi Apache, module mod_rewrite sudah dalam keadaan diaktifkan. Untuk melihat module sudah aktif, ketikkan perintah ``` nano config.php``` kemudian set ``` mod_rewrite ="1"; ```
+Sekarang paste hanya mendukung hingga 4GB, dan atur konfigurasi pada config.php. Namun, ini bergantung pada nilai pos_max_size pada file PHP configurasi anda.
+```
+// Max paste size in MB. This value should always be below the value of
+// post_max_size in your PHP configuration settings (php.ini) or empty errors will occur.
+// The value we got on installation of Paste was: post_max_size = 1G
+// Otherwise, the maximum value that can be set is 4000 (4GB)
+$pastelimit = "1"; // 0.5 = 512 kilobytes, 1 = 1MB
+```
+Untuk mengaktifksn registrasi dengan OAUTH lihat block dibawah ini pada config.php
+```
+// OAUTH (to enable, change to yes and edit)
+$enablefb = "no";
+$enablegoog = "no";
 
+// "CHANGE THIS" = Replace with your details
+// Facebook
+define('FB_APP_ID', 'CHANGE THIS'); // Your application ID, see https://developers.facebook.com/docs/apps/register
+define('FB_APP_SECRET', 'CHANGE THIS');    // What's your Secret key
+
+// Google 
+define('G_Client_ID', 'CHANGE THIS'); // Get a Client ID from https://console.developers.google.com/projectselector/apis/library
+define('G_Client_Secret', 'CHANGE THIS'); // What's your Secret ID
+define('G_Redirect_Uri', 'http://urltoyour/installation/oauth/google.php'); // Leave this as is
+define('G_Application_Name', 'Paste'); // Make sure this matches the name of your application
+```
 ### Konfigurasi Admin
 Pada halaman dashboard admin terdapat menu konfigurasi, dimana admin dapat melakukan pengaturan pada web. 
 1. Site Info
