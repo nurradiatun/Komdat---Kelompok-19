@@ -48,10 +48,10 @@ $ sudo mv config.example.php config.php
 
 6. Masuk ke localhost (localhost -> alamat IP atau URL kamu). Selanjutkan langkah-langkah konfigurasi:
 	- Konfigurasi Database
-	![](C:\Users\ACER AMD\Desktop\komdat\Komdat-Kelompok-19\cek install.png)
+	![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/cek%20install.png)
     
     - Konfigurasi Admin Account
-    ![](C:\Users\ACER AMD\Desktop\komdat\Komdat-Kelompok-19\admin.png)
+    ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/admin.png)
 
 	- setelah itu lakukan penghapusan folder instalasi pada terminal, masuk ke directori var/www/html/PASTE 
 	```
@@ -61,8 +61,6 @@ $ sudo mv config.example.php config.php
     - Kembali ke localhost tadi, refresh, maka muncul login admin
     ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/login%20adminn.png)
     
-    C:\Users\ACER AMD\Desktop\komdat\Komdat-Kelompok-19\login adminn.png)
-    
     - Selesai (Tampilan dashboard Admin)
-    ![](C:\Users\ACER AMD\Desktop\komdat\Komdat-Kelompok-19\dashboard.png)
+    ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/dashboard.png)
     
