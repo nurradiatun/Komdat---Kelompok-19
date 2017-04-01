@@ -109,7 +109,7 @@ Sekarang paste hanya mendukung hingga 4GB, dan atur konfigurasi pada config.php.
 // Otherwise, the maximum value that can be set is 4000 (4GB)
 $pastelimit = "1"; // 0.5 = 512 kilobytes, 1 = 1MB
 ```
-Untuk mengaktifksn registrasi dengan OAUTH lihat block dibawah ini pada config.php
+Untuk mengaktifkan registrasi dengan OAUTH lihat block dibawah ini pada config.php
 ```
 // OAUTH (to enable, change to yes and edit)
 $enablefb = "no";
@@ -126,7 +126,10 @@ define('G_Client_Secret', 'CHANGE THIS'); // What's your Secret ID
 define('G_Redirect_Uri', 'http://urltoyour/installation/oauth/google.php'); // Leave this as is
 define('G_Application_Name', 'Paste'); // Make sure this matches the name of your application
 ```
-### Konfigurasi Admin
+Untuk menyimpan (CTRL+ O) atau (CTRL+X).
+Untuk konfigurasi lainnya dapat diatur menggunakan Admin Panel
+
+### Konfigurasi Admin Panel
 Pada halaman dashboard admin terdapat menu konfigurasi, dimana admin dapat melakukan pengaturan pada web. 
 1. Site Info
 Admin dapat melakukan konfigurasi informasi site
@@ -145,6 +148,12 @@ PASTE menyediakan fitur maintenance apabila admin web ingin melakukan perbaikan 
 2. Kemudian muncul halaman maintenance 
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/maintenance.png)
 Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired, membersihkan history pada admin, menghapus akun yang tidak diverifikasi, dan menghapus semua hasil paste.
+
+## Cara Pemakaian
+1. Tampilan Aplikasi Web Paste
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/masuk1.png)
+2.
+
 
 ## Pembahasan
 Terdapat banyak jenis aplikasi Pastebins diantaranya Pastebin dan Paste. Paste memiliki beberapa fitur, yaitu download, edit, embed yang digunakan untuk menambahkan paste pada web atau blog dengan *copy* *link* yang diberikan, dan *archive* untuk melihat hasil paste dari orang lain.
