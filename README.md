@@ -1,4 +1,5 @@
 # Komdat-Kelompok-19
+<h1 align="center"><img src="https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/logo.png"></h1>
 
 [Tentang](#web-paste) | [Instalasi](#instalasi-web-server) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
