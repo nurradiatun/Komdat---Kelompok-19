@@ -13,10 +13,10 @@
 - MySQL 5.x+
 
 ### Cara Instalasi
-1. Masuk ke folder /var/www/html
-'''
+1. Masuk ke folder ``` /var/www/html	```
+```
 $ cd /var/www/html
-'''
+```
 
 2. Unduh arsip instalasi Paste dan simpan ke dalam direktori PASTE
 ```
@@ -36,6 +36,17 @@ $ sudo chmod 777 sitemap.xml
 localhost:8888/PASTE/install
 ```
 
+5. Masuk ke folder docs, instal phpmyadmin dan buat database, kemudian pindahkan file config.example.php menjadi file config.php
+```
 
+$ cd docs
+$ sudo apt-get install phpmyadmin
+$ mysql -u root -p
+mysql> CREATE DATABASE paste;
+
+$ sudo mv config.example.php config.php
+```
+
+6. 
 
 
