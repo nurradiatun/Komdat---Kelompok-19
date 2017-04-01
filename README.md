@@ -86,3 +86,6 @@ PASTE menyediakan fitur maintenance apabila admin web ingin melakukan perbaikan 
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/maintenance.png)
 Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired, membersihkan history pada admin, menghapus akun yang tidak diverifikasi, dan menghapus semua hasil paste.
 
+## Pembahasan
+Terdapat banyak jenis aplikasi Pastebins diantaranya Pastebin dan Paste. Paste memiliki beberapa fitur, yaitu download, edit, embed yang digunakan untuk menambahkan paste pada web atau blog dengan *copy* *link* yang diberikan, dan *archive* untuk melihat hasil paste dari orang lain.
+Tidak jauh berbeda dengan Paste, fitur Pastebin juga 
