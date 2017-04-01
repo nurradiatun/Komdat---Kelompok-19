@@ -4,6 +4,7 @@
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Tentang
+Paste merupakan aplikasi web *pastebins* yang dapat digunakan untuk memasukkan *source code* dan teks debugging umum. Fitur yang tersedia pada aplikasi ini yaitu mengedit, menghapus, serta mencari kata pada hasil Paste. Fitur tersebut dapat dijalankan dengan melakukan *login* terlebih dahulu.
 
 ## Instalasi
 
@@ -48,5 +49,3 @@ $ sudo mv config.example.php config.php
 ```
 
 6. 
-
-
