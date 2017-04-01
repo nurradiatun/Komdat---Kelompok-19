@@ -64,3 +64,25 @@ $ sudo mv config.example.php config.php
     - Selesai (Tampilan dashboard Admin)
     ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/dashboard.png)
     
+## Konfigurasi
+
+### Konfigurasi Admin
+Pada halaman dashboard admin terdapat menu konfigurasi, dimana admin dapat melakukan pengaturan pada web. 
+1. Site Info
+Admin dapat melakukan konfigurasi informasi site
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/configurasi1.png)
+2. Permission
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/configurasi2.png)
+3. Captcha Settings
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/configurasi3.png)
+4. Mail Settings
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/configurasi4.png)
+
+## Maintenance 
+PASTE menyediakan fitur maintenance apabila admin web ingin melakukan perbaikan pada situs.
+1. Pada halaman admin terdapat menu task, klik menu task.
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/dashboard.png)
+2. Kemudian muncul halaman maintenance 
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/maintenance.png)
+Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired, membersihkan history pada admin, menghapus akun yang tidak diverifikasi, dan menghapus semua hasil paste.
+
