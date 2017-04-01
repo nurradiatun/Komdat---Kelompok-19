@@ -13,10 +13,12 @@ Install Ubuntu Server 16.04 menggunakan *Virtual Disk Manager*, kemudian buat VM
 ### Setting *port-forwading* VM
 Tujuan dilakukan setting *port-forwading* agar VM dapat diakses dari luar melalui alamat IP *host(localhost)* . 
 Masuk ke ``` Setting -> Network -> Advanced -> *Port Forwading* ``` dan tambahkan dua aturan berikut :
+
 | Name  	| Protocol | Host IP | Host Port | Guest IP | Guest Port |
 | -------- 	| :---------: | :--------: | :----------: | :---------: | :------------: |
 | http     	| TCP	| 	       | 8888	 | 		 | 80		     |
 | ssh    	| TCP	| 	       | 2222	 | 		 | 22		     |
+
 Dengan demikian , jika kita mengakses ``` localhost:8888 ``` di host, maka akan diteruskan di *guest* VM.
 
 ### Kebutuhan
