@@ -151,9 +151,9 @@ PASTE menyediakan fitur maintenance apabila admin web ingin melakukan perbaikan 
 Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired, membersihkan history pada admin, menghapus akun yang tidak diverifikasi, dan menghapus semua hasil paste.
 
 ## Cara Pemakaian
-1. Tampilan Aplikasi Web Paste
+1. Tampilan Aplikasi Web Paste.
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/masuk1.png)
-2.
+2. Setela
 
 
 ## Pembahasan
