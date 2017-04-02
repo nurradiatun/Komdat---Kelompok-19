@@ -5,7 +5,7 @@
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Aplikasi Web Paste
-Paste merupakan aplikasi web *pastebins* yang dapat digunakan untuk memasukkan *source code* dan teks debugging umum. Fitur yang tersedia pada aplikasi ini yaitu mengedit, menghapus, serta mencari kata pada hasil Paste. Fitur tersebut dapat dijalankan dengan melakukan *login* terlebih dahulu.
+Paste merupakan aplikasi web *pastebins* yang dapat digunakan untuk menyimpan *source code* dan teks debugging umum. Fitur yang tersedia pada aplikasi ini yaitu mengedit, menghapus, serta mencari kata pada hasil Paste. Fitur tersebut dapat dijalankan dengan melakukan *login* terlebih dahulu.
 
 ## Instalasi Web Server
 ### Membuat VM Ubuntu Server
@@ -152,8 +152,11 @@ Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired
 
 ## Cara Pemakaian
 1. Tampilan Aplikasi Web Paste.
-![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/masuk1.png)
-2. Setela
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/awaluser.png)
+2. Tanpa log-in, kita dapat langsung mempaste kode atau catatan yang kita miliki dengan klik icon paste seperti gambar dibawah ini.
+![](http://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/gambar.png)
+3. Maka akan muncul tampilan seperti ini.
+![](http://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/tanpalogin.png) 
 
 
 ## Pembahasan
