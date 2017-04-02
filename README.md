@@ -154,9 +154,9 @@ Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired
 1. Tampilan Aplikasi Web Paste.
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/awaluser.png)
 2. Tanpa log-in, kita dapat langsung mempaste kode atau catatan yang kita miliki dengan klik icon paste seperti gambar dibawah ini.
-![](http://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/gambar.png)
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/gambar.png)
 3. Maka akan muncul tampilan seperti ini.
-![](http://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/tanpalogin.png) 
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/tanpalogin.png) 
 
 
 ## Pembahasan
