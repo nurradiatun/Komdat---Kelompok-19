@@ -95,6 +95,7 @@ $ sudo mv config.example.php config.php
     ```
     
     - Kembali ke localhost tadi, refresh, maka muncul login admin
+    
     ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/login%20adminn.png)
     
     - Selesai (Tampilan dashboard Admin)
@@ -158,6 +159,7 @@ Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/registeruser.png)
 ##### Tampilan *login*
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/loginuser.png)
+
 3. Setelah melakukan *login* akan muncul tampilan seperti dibawah ini. 
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/tampilanpaste.png)
 4. Setelah itu paste kode atau catatan yang kita miliki ke dalam kotak yang tersedia. Beri nama file lalu pilih format file (bisa teks biasa, c++, c, css, dan lain-lain). 
