@@ -146,18 +146,37 @@ Admin dapat melakukan konfigurasi informasi site
 PASTE menyediakan fitur maintenance apabila admin web ingin melakukan perbaikan pada situs.
 1. Pada halaman admin terdapat menu task, klik menu task.
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/dashboard.png)
-2. Kemudian muncul halaman maintenance 
+2. Kemudian muncul halaman maintenance .
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/maintenance.png)
 Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired, membersihkan history pada admin, menghapus akun yang tidak diverifikasi, dan menghapus semua hasil paste.
 
 ## Cara Pemakaian
-1. Tampilan Aplikasi Web Paste.
+1. Tampilan awal Aplikasi Web Paste.
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/awaluser.png)
-2. Tanpa log-in, kita dapat langsung mempaste kode atau catatan yang kita miliki dengan klik icon paste seperti gambar dibawah ini.
-![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/gambar.png)
-3. Maka akan muncul tampilan seperti ini.
-![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/tanpalogin.png) 
+4. Langkah pertama lakukan *register* terlebih dahulu dengan mengklik "*guest*" dan pilih *register* jika belum memiliki akun. Jika sudah memiliki akun maka lakukan *login*.
+######Tampilan register
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/registeruser.png)
+######Tampilan *login*
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/loginuser.png)
+3. Setelah melakukan *login* akan muncul tampilan seperti dibawah ini. 
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/tampilanpaste.png)
+4. Setelah itu paste kode atau catatan yang kita miliki ke dalam kotak yang tersedia. Beri nama file lalu pilih format file (bisa teks biasa, c++, c, css, dan lain-lain). 
+5. Pilih *paste expiration* sesuai keinginan Anda.
+6. Pilih *paste visibility* sesuai dengan keinginan Anda. Bisa publik, *unlisted* atau privasi. Hasil paste yang disimpan bisa diberi *password*.
+7. Lalu klik Paste. Setelah tersimpan hasil paste dapat di edit dan di download.
 
+Paste dapat dilakukan tanpa *login*. Cara pemakaian tanpa *login* tidak jauh berbeda dengan melakukan *login*. Berikut langkah-langkahnya: 
+1. Tampilan Aplikasi Web Paste
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/awaluser.png)
+2. Langkah pertama yaitu dengan mengklik *icon* paste seperti gambar dibawah ini (kotak merah).
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/gambar.png)
+3. Setelah itu akan muncul tampilan seperti ini. 
+![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/tanpalogin.png)
+4. Setelah itu paste kode atau catatan yang kita miliki ke dalam kotak yang tersedia. Beri nama file lalu pilih format file (bisa teks biasa, c++, c, css, dan lain-lain). 
+5. Pilih *paste expiration* sesuai keinginan Anda.
+6. Pilih *paste visibility* sesuai dengan keinginan Anda. Bisa publik, *unlisted* atau privasi. Hasil paste yang disimpan bisa diberi *password*.
+7. Masukan kode yang diberikan. Tanpa login Anda akan diberikan sebuah kode untuk konfirmasi. Lalu klik Paste. Setelah tersimpan hasil paste hanya dapat didownload.
+ 
 
 ## Pembahasan
 Terdapat banyak jenis aplikasi Pastebins diantaranya Pastebin dan Paste. Paste memiliki beberapa fitur, yaitu download, edit, embed yang digunakan untuk menambahkan paste pada web atau blog dengan *copy* *link* yang diberikan, dan *archive* untuk melihat hasil paste dari orang lain.
