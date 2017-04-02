@@ -154,9 +154,9 @@ Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired
 1. Tampilan awal Aplikasi Web Paste.
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/awaluser.png)
 4. Langkah pertama lakukan *register* terlebih dahulu dengan mengklik "*guest*" dan pilih *register* jika belum memiliki akun. Jika sudah memiliki akun maka lakukan *login*.
-#####Tampilan register
+##### Tampilan register
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/registeruser.png)
-#####Tampilan *login*
+##### Tampilan *login*
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/loginuser.png)
 3. Setelah melakukan *login* akan muncul tampilan seperti dibawah ini. 
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/tampilanpaste.png)
