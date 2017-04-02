@@ -177,7 +177,7 @@ Paste dapat dilakukan tanpa *login*. Cara pemakaian tanpa *login* tidak jauh ber
 4. Setelah itu paste kode atau catatan yang kita miliki ke dalam kotak yang tersedia. Beri nama file lalu pilih format file (bisa teks biasa, c++, c, css, dan lain-lain). 
 5. Pilih *paste expiration* sesuai keinginan Anda.
 6. Pilih *paste visibility* sesuai dengan keinginan Anda. Bisa publik, *unlisted* atau privasi. Hasil paste yang disimpan bisa diberi *password*.
-7. Masukan kode yang diberikan. Tanpa login Anda akan diberikan sebuah kode untuk konfirmasi. Lalu klik Paste. Setelah tersimpan hasil paste hanya dapat didownload.
+7. Masukan kode yang diberikan. Tanpa login Anda akan diberikan sebuah kode untuk verifikasi. Lalu klik Paste. Setelah tersimpan hasil paste hanya dapat didownload.
  
 
 ## Pembahasan
