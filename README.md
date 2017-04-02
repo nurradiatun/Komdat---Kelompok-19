@@ -181,5 +181,4 @@ Paste dapat dilakukan tanpa *login*. Cara pemakaian tanpa *login* tidak jauh ber
  
 
 ## Pembahasan
-Terdapat banyak jenis aplikasi Pastebins diantaranya Pastebin dan Paste. Paste memiliki beberapa fitur, yaitu download, edit, embed yang digunakan untuk menambahkan paste pada web atau blog dengan *copy* *link* yang diberikan, dan *archive* untuk melihat hasil paste dari orang lain.
-Tidak jauh berbeda dengan Paste, fitur Pastebin juga 
+Terdapat banyak jenis aplikasi Pastebins diantaranya Pastebin dan Paste. Paste memiliki beberapa fitur, yaitu download, edit, embed yang digunakan untuk menambahkan paste pada web atau blog dengan *copy* *link* yang diberikan. Tidak jauh berbeda dengan Paste, fitur Pastebin juga memiliki fitur diatas namun pada pastebin dapat mencetak hasil paste.
