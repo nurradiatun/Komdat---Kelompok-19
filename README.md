@@ -165,7 +165,7 @@ Pada halaman ini, admin dapat melakukan penghapusan pada file yang sudah expired
 4. Setelah itu paste kode atau catatan yang kita miliki ke dalam kotak yang tersedia. Beri nama file lalu pilih format file (bisa teks biasa, c++, c, css, dan lain-lain). 
 5. Pilih *paste expiration* sesuai keinginan Anda.
 6. Pilih *paste visibility* sesuai dengan keinginan Anda. Bisa publik, *unlisted* atau privasi. Hasil paste yang disimpan bisa diberi *password*.
-7. Lalu klik Paste. Maka akan muncul tampilan seperti gambar dibawah ini. Setelah tersimpan hasil paste dapat di edit dan di download. 
+7. Lalu klik Paste. Maka akan muncul tampilan seperti gambar dibawah ini. Setelah tersimpan hasil paste dapat diedit dan didownload. 
 ![](https://github.com/nurradiatun/Komdat-Kelompok-19/blob/master/tampilanuser.png)
 
 Paste dapat dilakukan tanpa *login*. Cara pemakaian tanpa *login* tidak jauh berbeda dengan melakukan *login*. Berikut langkah-langkahnya: 
