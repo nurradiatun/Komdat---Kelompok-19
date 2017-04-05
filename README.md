@@ -187,8 +187,8 @@ Paste dapat dilakukan tanpa *login*. Cara pemakaian tanpa *login* tidak jauh ber
 Terdapat banyak jenis aplikasi Pastebins diantaranya Pastebin dan Paste. Paste memiliki beberapa fitur, yaitu download, edit, embed yang digunakan untuk menambahkan paste pada web atau blog dengan *copy* *link* yang diberikan. Tidak jauh berbeda dengan Paste, fitur Pastebin juga memiliki fitur diatas namun pada pastebin dapat mencetak hasil paste. Perbedaan antara paste dan pastebin yang adalah dari segi tampilan, terlihat dari segi tampilan paste lebih simple dan tidak terdapat iklan sehingga membuat tampilan aplikasi terlihat menarik, sedangkan pastebin banyak dijumpai iklan-iklan pada halaman web sehingga terlihat kurang menarik. 
 
 ## Referensi
-https://github.com/Kickball/awesome-selfhosted
-https://phpaste.sourceforge.io/
-https://phpaste.sourceforge.io/demo/
-https://github.com/jordansamuel/PASTE
-https://pastethis.in/
+- https://github.com/Kickball/awesome-selfhosted
+- https://phpaste.sourceforge.io/
+- https://phpaste.sourceforge.io/demo/
+- https://github.com/jordansamuel/PASTE
+- https://pastethis.in/
